@@ -1,0 +1,84 @@
+
+*{
+    margin :10px 30px;
+  }
+    button {
+      border-radius: 20%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+    line-height: 1;
+    }
+    button {
+      width: 100px;
+      height: 50px;
+    }
+    button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .fa-phone {
+      font-size: 20px;
+    }
+  
+    .b1{
+      
+      border-radius: 30px;
+      border: none;
+      background-color:  rgb(96, 197, 147);
+      width: 150px;
+      height: 38px;
+      font-size: 15px;
+    }
+    .b2{
+      background-color: #fff;
+      border-radius: 20px;
+      color: #000;
+      border:none;
+      cursor: pointer;
+      width :165px;
+      height: 40px;
+      box-shadow:2px 2px 2px 2px  #00000036;
+    }
+  
+  
+    .b3{
+      background-color:  rgb(85, 167, 126);
+      border-radius: 8px;
+      border: none;
+      width:180px;
+      height: 40px;
+      }
+  
+      .b4{
+       background: transparent;
+       color: rgb(85, 167, 126) ;
+       border-color:  rgb(85, 167, 126);
+       margin: 40px 0;
+       width: 230px;
+       height: 90px;
+       font-size: 20px;
+      }
+      .b5{
+        background: transparent;
+        border: none;
+        color: #323131;
+        font-size: 25px;
+        width: 180px;
+        font-weight: 600;
+      }
+  
+      .b6{
+        background-color:rgb(71, 178, 125) ;
+        border: none;
+        width: 210px;
+        height: 100px;
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 20px;
+      }
+
+      

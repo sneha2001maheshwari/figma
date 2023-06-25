@@ -1,0 +1,545 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.icon {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.icon h1 {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.icon span {
+    margin: 0 5px;
+}
+.icon h1
+{
+    color: rgb(7,104,207);
+}
+
+.signup button {
+    background: rgb(7, 104, 207);
+    border: none;
+    padding: 7px 20px;
+    margin-right: 100px;
+    border-radius: 6px;
+    color: white;
+    font-size: .9em;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* poster css */
+.poster
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.post1
+{
+    width: 50%;
+
+}
+.poster .post1 h1
+{
+    
+    align-items: center;
+    text-align: center;
+    font-size:60px;
+    padding-top: 70px;
+}
+.poster .post1 h2
+{
+    
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+.poster .post1 button
+{
+    background-color: rgb(7, 104, 207);
+    color: wheat;
+    text-decoration: none;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.post2
+{
+    width: 55%;
+    background-image: url(images/new2.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+/* conqt help css start */
+
+.help_container
+{
+    background:linear-gradient(#13339E,#4182F4);
+}
+.help_container h1
+{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.cont
+{
+    display: flex;
+    /* margin-bottom: 40px; */
+    padding-bottom: 50px;
+}
+.conta1
+{
+    margin-left:120px;
+    display: flex;
+    justify-items: space-between;
+    background-color:#289F73;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.conta2
+{
+    margin:auto;
+    display: flex;
+    justify-items: space-between;
+    background-color:#289F73;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.conta1 .cont_image img
+{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.conta1 .cont_content p
+{
+    margin-left: 4px;
+    color: white;
+    font-size: 20px;
+}
+.conta2 .cont_content p
+{
+    margin-left: 4px;
+    color: white;
+    font-size: 20px;
+}
+.conta3
+{
+    
+    margin-top: 15;
+    margin-left: 450px;
+    display: flex;
+    justify-items: space-between;
+    background-color:#289F73;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.conta3 .cont_image img
+{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.conta4 .cont_content p
+{
+    margin-left: 4px;
+    color: white;
+    font-size: 20px;
+}
+.conta3 .cont_content p
+{
+    margin-left: 4px;
+    color: white;
+    font-size: 20px;
+}
+.conta4
+{
+    margin:auto;
+    display: flex;
+    justify-items: space-between;
+    background-color:#289F73;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-around;
+
+}
+.conta4 .cont_image img
+{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.conta1 .cont_content p
+{
+    margin-left: 4px;
+    color: white;
+    font-size: 20px;
+}
+.conta2 .cont_content p
+{
+    margin-left: 4px;
+    color: white;
+    font-size: 20px;
+}
+.arrow ul
+{
+    display: flex;
+}
+.arrow ul li
+{
+    list-style: none;
+}
+.arrow1
+{
+    align-items: start;
+}
+
+/* conqt css ends */
+/* project css start */
+.projects
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.project_text
+{
+    width: 50%;
+
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.projects .project_text h1
+{
+    font-size: 60px;
+}
+.project_image
+{
+    width: 45%;
+    padding-left: 100px;
+    margin-right: 0;
+}
+.proj_btn
+{
+    background-color:rgb(7, 104, 207);
+    color: white;
+    padding: 20px 60px 20px 60px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: -50px;
+}
+/* project css end */
+
+/* footerr css start */
+.footer
+{
+    background-color:rgb(7, 104, 207);
+    /* position: static; */
+    padding-top: 70px;
+    padding-bottom: 60px;
+    width: 100%;
+    display:flex;
+    color: white    ;
+
+}
+.foot
+{
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* flex-direction: row; */
+}
+.foot_note h1
+{
+    padding-left: 100px;
+}
+.foot_note h5
+{
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.foot_note2
+{
+    padding-left: 200px;
+}
+/* footer css end */
+
+
+
+
+
+
+/* Media Queries for Laptop */
+@media (max-width: 1366px) {
+    .poster .post1 h1 {
+        font-size: 40px;
+    }
+    
+    .poster .post1 h2 {
+        font-size: 35px;
+    }
+    
+    .help_container h1 {
+        font-size: 35px;
+    }
+    
+    .conta1,
+    .conta2,
+    .conta3,
+    .conta4 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .conta1,
+    .conta2,
+    .conta3,
+    .conta4,
+    .conta1 .cont_image img,
+    .conta2 .cont_image img,
+    .conta3 .cont_image img,
+    .conta4 .cont_image img,
+    .conta1 .cont_content p,
+    .conta2 .cont_content p,
+    .conta3 .cont_content p,
+    .conta4 .cont_content p {
+        margin: 0;
+    }
+    
+    .proj_btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+}
+
+/* Media Queries for Tablet */
+@media (max-width: 768px) {
+    .poster {
+        flex-direction: column;
+    }
+    
+    .post1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .poster .post1 h1 {
+        padding-top: 50px;
+        font-size: 35px;
+    }
+    
+    .poster .post1 h2 {
+        font-size: 30px;
+    }
+    .help_container .arrow .arr_img
+    {
+        display: none;
+
+    }
+    
+    .poster .post1 button {
+        margin: 30px auto;
+    }
+    
+    .post2 {
+        width: 100%;
+    }
+    
+    .help_container h1 {
+        font-size: 30px;
+    }
+    
+    .cont {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .conta1,
+    .conta2,
+    .conta3,
+    .conta4 {
+        margin-bottom: 20px;
+    }
+    
+    .proj_btn {
+        margin-top: 20px;
+    }
+    
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project_text,
+    .project_image {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .foot {
+        flex-direction: column;
+    }
+    
+    .foot_note h1,
+    .foot_note h5 {
+        padding-left: 20px;
+    }
+    
+    .foot_note2 {
+        padding-left: 20px;
+    }
+    .projects .project_text h1
+    {
+        
+        padding-left: 10px;
+        font-size: 50px;
+
+    }
+    .projects .project_text p
+    {
+        font-size: 23px
+    };
+
+}
+
+/* Media Queries for Mobile Phone */
+@media (max-width: 480px) {
+    .nav_container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    
+    .arr_img
+    {
+        display: none;
+    }
+    .icon h1 {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    
+    .signup button {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .poster .post1 h1 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
+    .poster .post1 h2 {
+        font-size: 20px;
+    }
+    
+    .poster .post1 button {
+        margin: 20px auto;
+        padding: 10px 20px;
+    }
+    
+    .post2 {
+        width: 100%;
+    }
+    
+    .help_container h1 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    
+    .cont {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .conta1,
+    .conta2,
+    .conta3,
+    .conta4 {
+        margin-bottom: 20px;
+    }
+    
+    .conta1 .cont_image img,
+    .conta2 .cont_image img,
+    .conta3 .cont_image img,
+    .conta4 .cont_image img {
+        display: none;
+    }
+    
+    .conta1 .cont_content p,
+    .conta2 .cont_content p,
+    .conta3 .cont_content p,
+    .conta4 .cont_content p {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .arrow ul {
+        flex-wrap: wrap;
+    }
+    
+    .arrow ul li {
+        width: 50%;
+    }
+    
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project_text,
+    .project_image {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .proj_btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .foot {
+        flex-direction: column;
+    }
+    
+    .foot_note h1,
+    .foot_note h5 {
+        padding-left: 20px;
+    }
+    
+    .foot_note2 {
+        padding-left: 20px;
+    }
+}
